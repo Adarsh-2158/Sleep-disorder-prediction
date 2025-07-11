@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load the trained model
 
-model = joblib.load(r'C:\Users\adars\OneDrive\Desktop\Sleep Disorder Prediction\SleepHealth_model.pkl')
+model = joblib.load('SleepHealth_model.pkl')
 
 
 st.title("🛌 Sleep Disorder Prediction App")
